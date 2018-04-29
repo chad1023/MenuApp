@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_store"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    tools:context="com.example.chad.menuapp.StoreActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+    android:layout_width="match_parent"
+    android:id="@+id/fragment"
+    android:layout_height="0dp"
+    android:layout_weight="8">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/ordertext"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:layout_weight="3"/>
+
+        <TextView
+            android:id="@+id/orderstore"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/submitbutton"
+            android:text="submit"
+            android:layout_gravity="center"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/menubutton"
+            android:layout_weight="1"
+            android:background="?android:attr/windowBackground" />
+
+        <Button
+            android:text="Store"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/storebutton"
+            android:layout_weight="1"
+            android:background="?android:attr/windowBackground" />
+
+        <Button
+            android:text="About"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/aboutbutton"
+            android:layout_weight="1"
+            android:background="?android:attr/windowBackground" />
+    </LinearLayout>
+
+</LinearLayout>

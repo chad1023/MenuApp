@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="storeinfos">
+        <item>公館店,台北市中正區汀洲路三段195號</item>
+        <item>台大店,台北市大安區羅斯福路四段1號</item>
+        <item>師大店,台北市大安區師大路98號</item>
+        <item>輔大店,新北市新莊區建國一路28號</item>
+        <item>西門店,台北市萬華區成都路37號</item>
+    </string-array>
+    <string-array name="latlng">
+
+        <item>25.014584,121.533206</item>
+        <item>25.0152002,121.5375088</item>
+        <item>25.0224347,121.5282831</item>
+        <item>25.031509,121.433663</item>
+        <item>25.042708,121.5066369</item>
+    </string-array>
+</resources>
